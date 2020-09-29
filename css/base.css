@@ -1,0 +1,30 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #8262b5;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white-color);
+    padding: 0;
+    margin: 0;
+}
+
+.btn-banner {
+    position: absolute;
+    color: var(--white-color);
+    background-color: var(--text-color);
+    font-size: 1.4rem;
+    border-radius: 0;
+    font-family: 'Montserrat'
+}
